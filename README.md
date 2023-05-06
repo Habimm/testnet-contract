@@ -1,6 +1,6 @@
 # How to publish a smart contract on an Ethereum testnet
 
-(Read the full text on MEDIUM.)
+(Read the full text on [Medium](https://medium.com/@dimitri2431/how-to-publish-a-smart-contract-on-an-ethereum-testnet-8494e7278504).)
 
 Run the RUN file to create and publish a simple smart contract on Ethereum.
 
