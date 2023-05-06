@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+npm install
 rm -rf artifacts/ cache/
 npx hardhat compile
 npx hardhat run --network sepolia scripts/deploy-contract.js
