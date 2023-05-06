@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+rm -rf artifacts/ cache/
+npx hardhat compile
+npx hardhat run --network sepolia scripts/deploy-contract.js
+
+# Run in Docker:
+# docker build -t hardhat-contract .
+# docker run --rm hardhat-contract
